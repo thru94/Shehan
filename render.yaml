@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: shezz-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo:https://github.com/thru94/Shehan?tab=readme-ov-file#shehan
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
